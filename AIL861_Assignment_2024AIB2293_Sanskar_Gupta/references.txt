@@ -1,0 +1,11 @@
+Name - Sanskar Gupta
+Entry Number - 2024AIB2293
+
+First Reference 
+1) Andrej Karpathy's code on how to build a tiny LLM and his youtube videos relevant to this topic
+Link for code - https://github.com/karpathy/minGPT
+Link for github page - https://github.com/karpathy?tab=repositories
+There may be other repositories which I may have referred for some functions 
+Link for youtube channel - https://www.youtube.com/@AndrejKarpathy
+
+2) Have used LLMs for referring to syntax and using them for syntax. However the pipeline and logic is fine. In some functions, there may be help from LLM for logic, but that is very very less. 

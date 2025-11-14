@@ -1,0 +1,23 @@
+name: llm_assignment
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - torchaudio
+  - jupyter         # For any testing or notebooks
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn    # We'll use this for our train/validation split
+  - pip
+  - seaborn
+  - pip:
+    - datasets      # For loading TinyStories from Hugging Face
+    - fasttext      # For loading the pre-trained .bin vectors
+    - evaluate      # For the BLEU score calculation 
+    - wandb         # Recommended for logging
+    - tqdm          # Good for progress bars in training
